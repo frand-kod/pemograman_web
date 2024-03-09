@@ -1,0 +1,56 @@
+:root {
+    --aksenB: #254e94;
+    --aksenY: #ffff00;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 1.5rem;
+    background-image: url(img/bg-bulu.jpg);
+}
+
+.bungkus {
+    border-radius: 2vh;
+    padding: 0.5rem 2rem;
+    background-color: rgba(255, 255, 255, 0.97);
+}
+
+img {
+    width: 10rem;
+    height: auto;
+}
+
+h1 {
+    color: var(--aksenB);
+}
+
+h2 {
+    border-left: 0.275rem solid #000;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+blockquote {
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+p {
+    line-height: 1.5rem;
+    text-indent: 1.5rem;
+    padding: 1.5rem;
+}
+
+.konten {
+    background-color: rgba(220, 220, 220, 0.2);
+    border-radius: 0.5rem;
+}
+
+span {
+    background: var(--aksenY);
+    padding-left: 2px;
+}
+
+.tagline {
+    margin-left: 2rem;
+}
